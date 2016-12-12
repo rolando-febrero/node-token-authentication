@@ -41,12 +41,11 @@ Or you can send the token as a POST parameter of `token`.
 
 ## ---------------------------
 
-/*
+##Notes:
 * Using postman, send a POST request to http://localhost:8080/api/authenticate and
 * in the header specify user and password. That will get you the token needed
 * for the other APIs
 *
 * Using postman, send a GET request to http://localhost:8080/api and in the header
 * specify the token you just got from previous response.
-*
-*/
+
